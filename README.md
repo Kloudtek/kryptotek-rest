@@ -1,4 +1,4 @@
-kryptotek-oss
+kryptotek-rest
 =============
 
-Kryptotek java cryptography framework - open source edition
+Java REST authentication based on http request/response signing

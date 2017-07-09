@@ -9,16 +9,16 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.kloudtek.kryptotek</groupId>
-    <artifactId>kryptotek-oss</artifactId>
+    <artifactId>kryptotek-rest</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <properties>
         <ktutils.version>1.2.16</ktutils.version>
         <ktserializer.version>1.2.17</ktserializer.version>
     </properties>
-    <name>Kryptotek OSS</name>
-    <url>https://github.com/Kloudtek/kryptotek-oss</url>
-    <description>Kryptotek provides an easy to use abstraction layer for cryptographic functions</description>
+    <name>Kryptotek REST</name>
+    <url>https://github.com/Kloudtek/kryptotek-rest</url>
+    <description>Java REST authentication based on http request/response signing</description>
 
     <organization>
         <name>Kloudtek</name>
@@ -26,31 +26,30 @@
     </organization>
 
     <modules>
-        <module>core</module>
-        <module>rest/shared</module>
-        <module>rest/client/httpcomponents</module>
-        <module>rest/server/test</module>
-        <module>rest/server/servlet</module>
-        <module>rest/server/jaxrs</module>
-        <module>rest/server/shared</module>
-        <module>rest/server/springsecurity</module>
+        <module>shared</module>
+        <module>client/httpcomponents</module>
+        <module>server/test</module>
+        <module>server/servlet</module>
+        <module>server/jaxrs</module>
+        <module>server/shared</module>
+        <module>server/springsecurity</module>
     </modules>
 
     <developers>
         <developer>
-            <name>Yannick Menager</name>
-            <url>https://github.com/ymenager/</url>
+            <name>Kloudtek Developers</name>
+            <url>https://github.com/Kloudtek/</url>
             <organization>Kloudtek</organization>
         </developer>
     </developers>
     <issueManagement>
         <system>Github</system>
-        <url>https://github.com/Kloudtek/kryptotek-oss/issues</url>
+        <url>https://github.com/Kloudtek/kryptotek-rest/issues</url>
     </issueManagement>
     <scm>
-        <url>scm:git:git@github.com:Kloudtek/kryptotek-oss.git</url>
-        <connection>scm:git:git@github.com:Kloudtek/kryptotek-oss.git</connection>
-        <developerConnection>scm:git:git@github.com:Kloudtek/kryptotek-oss.git</developerConnection>
+        <url>scm:git:git@github.com:Kloudtek/kryptotek-rest.git</url>
+        <connection>scm:git:git@github.com:Kloudtek/kryptotek-rest.git</connection>
+        <developerConnection>scm:git:git@github.com:Kloudtek/kryptotek-rest.git</developerConnection>
     </scm>
     <licenses>
         <license>
