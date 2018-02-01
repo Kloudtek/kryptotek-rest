@@ -24,16 +24,6 @@
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>com.kloudtek.ktutils</groupId>
-            <artifactId>ktutils-core</artifactId>
-            <version>${ktutils.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.kloudtek.ktutils</groupId>
-            <artifactId>ktutils-io</artifactId>
-            <version>${ktutils.version}</version>
-        </dependency>
-        <dependency>
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient</artifactId>
             <version>4.5.3</version>

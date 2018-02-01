@@ -12,10 +12,6 @@
     <artifactId>kryptotek-rest</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
-    <properties>
-        <ktutils.version>1.2.16</ktutils.version>
-        <ktserializer.version>1.2.17</ktserializer.version>
-    </properties>
     <name>Kryptotek REST</name>
     <url>https://github.com/Kloudtek/kryptotek-rest</url>
     <description>Java REST authentication based on http request/response signing</description>
@@ -61,18 +57,18 @@
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
-            <version>1.7.21</version>
+            <version>1.7.25</version>
         </dependency>
         <dependency>
             <groupId>org.jetbrains</groupId>
             <artifactId>annotations</artifactId>
-            <version>13.0</version>
+            <version>15.0</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-simple</artifactId>
-            <version>1.7.21</version>
+            <version>1.7.25</version>
             <scope>test</scope>
         </dependency>
     </dependencies>

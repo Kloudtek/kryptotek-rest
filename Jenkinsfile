@@ -1,3 +1,3 @@
-@Library('kloudtek-lib') _
+@Library('kloudtek-pipelinelib') _
 
 mavenRelease()

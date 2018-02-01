@@ -19,14 +19,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.kloudtek.ktutils</groupId>
-            <artifactId>ktutils-core</artifactId>
-            <version>${ktutils.version}</version>
-        </dependency>
-        <dependency>
             <groupId>com.kloudtek.kryptotek</groupId>
             <artifactId>kryptotek-core</artifactId>
-            <version>1.0.24</version>
+            <version>1.0.25</version>
         </dependency>
         <dependency>
             <groupId>org.testng</groupId>
